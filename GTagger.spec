@@ -1,4 +1,5 @@
 Summary:	ID3Tag editor
+Summary(pl):	Edytor znaczników ID3
 Name:		GTagger
 Version:	0.1.0
 Release:	1
@@ -10,12 +11,16 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gcc >= 3.2
 BuildRequires:	gtkmm-devel >= 2.2.0
-BuildRequires:	libtool
 BuildRequires:	intltool >= 0.25
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 GTagger is an ID3Tag editor designed for easy and efficient usage.
+
+%description -l pl
+GTagger to edytor znaczników ID3 opracowany pod k±tem ³atwego i
+sprawnego u¿ywania.
 
 %prep
 %setup -q -n %{name}-0.1
@@ -38,7 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %find_lang %{name}
 
-# header files seems to be useless
+# header files seem to be useless
 rm -rf $RPM_BUILD_ROOT%{_includedir}
 
 %clean
