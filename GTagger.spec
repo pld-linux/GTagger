@@ -40,7 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	gtaggerdocdir=%{_docdir}/%{name}	
+	gtaggerdocdir=%{_docdir}/%{name}
 
 %find_lang %{name}
 
