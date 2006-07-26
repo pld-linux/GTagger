@@ -7,7 +7,7 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://freebits.yawsp.de/35/releases/%{name}-%{version}.tar.gz
 # Source0-md5:	d88f7542822db516450fb2652d429249
-URL:		http://gtagger.sf.net/
+URL:		http://gtagger.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gcc >= 3.2
