@@ -1,5 +1,5 @@
 Summary:	ID3Tag editor
-Summary(pl):	Edytor znaczników ID3
+Summary(pl.UTF-8):   Edytor znacznikÃ³w ID3
 Name:		GTagger
 Version:	0.1.0
 Release:	1
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 GTagger is an ID3Tag editor designed for easy and efficient usage.
 
-%description -l pl
-GTagger to edytor znaczników ID3 opracowany pod k±tem ³atwego i
-sprawnego u¿ywania.
+%description -l pl.UTF-8
+GTagger to edytor znacznikÃ³w ID3 opracowany pod kÄ…tem Å‚atwego i
+sprawnego uÅ¼ywania.
 
 %prep
 %setup -q -n %{name}-0.1
