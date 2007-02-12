@@ -1,5 +1,5 @@
 Summary:	ID3Tag editor
-Summary(pl.UTF-8):   Edytor znaczników ID3
+Summary(pl.UTF-8):	Edytor znaczników ID3
 Name:		GTagger
 Version:	0.1.0
 Release:	1
